@@ -1,0 +1,18 @@
+{
+  "extends": "react-app",
+  "plugins": ["eslint-plugin-simple-import-sort"],
+  "rules": {
+    "simple-import-sort/imports": 2,
+    "arrow-body-style": ["error", "as-needed"],
+    "arrow-parens": ["error", "always"],
+    "sort-keys": [
+      "warn",
+      "asc",
+      {
+        "caseSensitive": true,
+        "natural": false,
+        "minKeys": 2
+      }
+    ]
+  }
+}
